@@ -1,0 +1,12 @@
+{"max_token": 7, "auxiliary_dim": 0, "classes": 8, "vocab_size":9}
+
+# q
+words:8
+auxiliary:0,1.0 1,2.0
+label:1
+
+# q
+words:1 2 3 4 5 6 7 8
+auxiliary:0,1.0 1,2.0
+label:2
+
