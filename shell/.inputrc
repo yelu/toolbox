@@ -1,0 +1,2 @@
+# case insenstive when auto completion.
+set completion-ignore-case On

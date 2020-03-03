@@ -1,0 +1,5 @@
+# Outputs:ngrams,cfgs
+# DependentFiles:2gram.txt,cfg.xml
+
+NGramFeaturizer --input=query --output=ngrams --n=2 --ngramFile=2gram.txt
+CFGFeaturizer --input=query --output=cfgs --grammarFile=cfg.xml

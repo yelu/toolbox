@@ -1,0 +1,25 @@
+query	slot_xml	intent	pre_intent:enum
+show me some movie in theater	show me some movie in theater	find_movie_in_theater	*
+some movie in theater	some movie in theater	find_movie_in_theater	*
+movie in theater	movie in theater	find_movie_in_theater	*
+show me some movies in theaters	show me some movies in theaters	find_movie_in_theater	*
+some movies in theaters	some movies in theaters	find_movie_in_theater	*
+movies in theaters	movies in theaters	find_movie_in_theater	*
+give me some movies in theater	give me some movies in theater	find_movie_in_theater	*
+find some movies in theater	find some movies in theater	find_movie_in_theater	*
+find movies in theater	find movies in theater	find_movie_in_theater	*
+show me some movie coming soon	show me some movie coming soon	find_movie_coming_soon	*
+some movie coming soon	some movie coming soon	find_movie_coming_soon	*
+movie coming soon	movie coming soon	find_movie_coming_soon	*
+show me some movies coming soon	show me some movies coming soon	find_movie_coming_soon	*
+some movies coming soon	some movies coming soon	find_movie_coming_soon	*
+movies coming soon	movies coming soon	find_movie_coming_soon	*
+give me some movies coming soon	give me some movies coming soon	find_movie_coming_soon	*
+find some movies coming soon	find some movies coming soon	find_movie_coming_soon	*
+find movies coming soon	find movies coming soon	find_movie_coming_soon	*
+who act in the first one	who act in the <position>first</position> one	movie_fact_actor	*
+who act in the first movie	who act in the <position>first</position> movie	movie_fact_actor	*
+who act in the last one	who act in the <position>last</position> one	movie_fact_actor	*
+who act in fast and furious 7	who act in <movie>fast and furious 7<movie>	movie_fact_actor	*
+			find_movie_in_theater
+			find_movie_coming_soon

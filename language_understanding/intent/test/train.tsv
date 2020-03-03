@@ -1,0 +1,43 @@
+query	intent	pre_intent:enum	aux
+what's the weather in bellevue	check_weather	*	1
+what ' s the weather in jerusalem	check_weather	*	1
+what will issaquah's weather be on sunday	check_weather	*	1
+hey what ' s the weather like	check_weather	*	1
+tomorrow's weather please	check_weather	*	1
+what's the weather like in Boston	check_weather	*	1
+show me the current forecast for okatie	check_weather	*	1
+what ' s the weather gonna be like today	check_weather	*	1
+What is the weather like in Salt Lake?	check_weather	*	1
+what's the weather like in chicago on monday	check_weather	*	1
+Please quote the temperature right now in Kelvin	check_weather	*	1
+what ' s the weather going to be like next monday	check_weather	*	1
+what's the weather like in miami	check_weather	*	1
+how humid would it be on friday	check_weather	*	1
+how ' s the weather in cologne tonight	check_weather	*	1
+what is the weather like for tomorrow	check_weather	*	1
+what ' s the weather for price resort virginia	check_weather	*	1
+what will the weather be tomorrow in lake shore california	check_weather	*	1
+what is the temperature like today	check_weather	*	1
+give me a 10 day forecast of Indianapolis.	check_weather	*	1
+temperature outside	question_weather	*	1
+Can I wear a tank top outside?	question_weather	*	1
+should i wear shorts today	question_weather	*	1
+Should I wear sun block this weekend?	question_weather	*	1
+Will I be able to wear my fur coat on Monday?	question_weather	*	1
+should i take an umbrella with me	question_weather	*	1
+Will we be able to water ski on Saturday	question_weather	*	1
+Would mittens be appropriate next Tuesday?	question_weather	*	1
+Will the parka need to be used tomorrow?	question_weather	*	1
+Can I wear shorts this weekend?	question_weather	*	1
+will it be raining tonight	question_weather	*	1
+will it be sunny tomorrow in san francisco	question_weather	*	1
+WILL I NEED TO USE HEAT IN  ATLANTA TODAY?	question_weather	*	1
+is it going to snow today	question_weather	*	1
+will i need boots friday	question_weather	*	1
+need to know if a storm will happen in Chicago this weekend	question_weather	*	1
+Should I wear a parka?	question_weather	*	1
+should I have an umbrella tomorrow	question_weather	*	1
+Should I pack snow pants?	question_weather	*	1
+Is today going to be as sunny as yesterday?	question_weather	*	1
+		check_weather	1
+		question_weather	1

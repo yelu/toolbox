@@ -1,0 +1,8 @@
+0	a b
+1	b c
+2	what is
+3	is the
+4	the weather
+5	weather in
+6	in beijing
+7	beijing ?
