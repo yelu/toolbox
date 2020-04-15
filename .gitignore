@@ -31,8 +31,11 @@
 *.out
 *.app
 
+CMakeFiles/
 build/
 cmake-build-debug/
 cmake-build-release/
+build_wsl/
+build-wsl/
 .vscode/
 .idea/

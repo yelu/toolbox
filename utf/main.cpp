@@ -13,7 +13,6 @@ int main()
         std::bitset<8> x(utf8[i]);
         printf("%02x ", x.to_ulong());
     }
-        //printf("%02x ", utf8[i]);
     std::cout << std::endl;
     std::cout << utf8 << std::endl;
 
