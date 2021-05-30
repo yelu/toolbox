@@ -1,0 +1,6 @@
+# Use the Google style in this project.
+BasedOnStyle: mozilla
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never

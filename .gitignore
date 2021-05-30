@@ -33,7 +33,7 @@
 *.app
 
 CMakeFiles/
-build/
+[Bb]uild/
 cmake-build-debug/
 cmake-build-release/
 build_wsl/
