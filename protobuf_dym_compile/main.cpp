@@ -5,7 +5,7 @@
 #include <google/protobuf/util/json_util.h>
 
 
-// import error collector
+// for printing proto files compilation errors
 class MyErrorCollector: public google::protobuf::compiler::MultiFileErrorCollector {   
     virtual void AddError(const std::string & filename, int line, int column, const std::string & message) {        
     std::cout << filename << ", " << line << ", " << column << " " << message << std::endl;
@@ -23,7 +23,7 @@ int main() {
     const google::protobuf::Descriptor * descriptor = importer.pool()->FindMessageTypeByName("pkg.SearchRequest");    
     if (!descriptor){
         std::cout << "failed to find SearchRequest" << std::endl;
-        exit(-1);
+        return 1;
     }
 
     // list all fields
