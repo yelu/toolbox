@@ -17,7 +17,7 @@ int main() {
     sourceTree.MapPath("", "D:/src/github/toolbox/protobuf_dym_compile/proto/");
     MyErrorCollector errorCollector;
     google::protobuf::compiler::Importer importer(&sourceTree, &errorCollector);
-    importer.Import("pkg/schema.proto");
+    importer.Import("pkg/service.proto");
 
     // find a message descriptor from message descriptor pool
     const google::protobuf::Descriptor * descriptor = importer.pool()->FindMessageTypeByName("pkg.SearchRequest");    
